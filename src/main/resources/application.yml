@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/notification
     username: root
-    password: srivatsan
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
     
   jpa:
@@ -13,4 +13,4 @@ spring:
     name: notification-service
       
 server:
-  port: 3031
+  port: 3032
